@@ -46,6 +46,11 @@ body {
     color: white;
 }
 
+.keyword{
+    font-size: 1.3em;
+    color: blue;
+}
+
 #footer {
     grid-column: 1 / 4;
     padding: 15px;
