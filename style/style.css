@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Columnas de igual tamaño para los aside y el contenido */
+    grid-template-rows: auto 1fr auto; /* Encabezado, contenido principal, y pie de página */
+    height: 100%;
+}
+
+#header {
+    padding: 15px;
+    background-color: rgba(71, 109, 147, 1);
+    color: white;
+    grid-column: 1 / 4;
+}
+
+#aside-left, #aside-rigth {
+    padding: 15px;
+    background-color: rgba(144, 94, 65, 1);
+    color: white;
+}
+
+#aside-left {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3; /* Asegurar que ocupe toda la altura de la segunda fila */
+}
+
+#aside-rigth {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3; /* Asegurar que ocupe toda la altura de la segunda fila */
+}
+
+#main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 15px;
+    background-color: rgba(153, 127, 40, 1);
+    color: white;
+}
+
+#footer {
+    grid-column: 1 / 4;
+    padding: 15px;
+    background-color: rgba(71, 109, 147, 1);
+    color: white;
+}
