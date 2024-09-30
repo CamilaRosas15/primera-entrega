@@ -17,14 +17,14 @@ body {
 
 #header {
     padding: 15px;
-    background-color: rgba(71, 109, 147, 1);
+    background-color: rgb(236, 199, 68);
     color: white;
     grid-column: 1 / 4;
 }
 
 #aside-left, #aside-rigth {
     padding: 15px;
-    background-color: rgba(144, 94, 65, 1);
+    background-color: rgb(143, 161, 248);
     color: white;
 }
 
@@ -42,13 +42,13 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     padding: 15px;
-    background-color: rgba(153, 127, 40, 1);
+    background-color: rgb(138, 189, 243);
     color: white;
 }
 
 #footer {
     grid-column: 1 / 4;
     padding: 15px;
-    background-color: rgba(71, 109, 147, 1);
+    background-color: rgb(236, 199, 68);
     color: white;
 }

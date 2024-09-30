@@ -17,14 +17,14 @@ body {
 
 header {
     padding: 15px;
-    background-color: rgba(71, 109, 147, 1);
+    background-color: rgb(110, 164, 219);
     color: white;
     grid-column: 1 / 4;
 }
 
 aside {
     padding: 15px;
-    background-color: rgba(144, 94, 65, 1);
+    background-color: rgb(200, 194, 40);
     color: white;
 }
 
@@ -38,14 +38,14 @@ aside {
 
 main {
     padding: 15px;
-    background-color: rgba(153, 127, 40, 1);
+    background-color: rgb(89, 189, 207);
     color: white;
     grid-column: 2 / 3;
 }
 
 footer {
     padding: 15px;
-    background-color: rgba(71, 109, 147, 1);
+    background-color: rgb(110, 164, 219);
     color: white;
     grid-column: 1 / 4;
 }
